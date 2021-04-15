@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+.App {
+  font-family: "New Tegomin", serif;
+  text-align: center;
+}
+
+input {
+  display: block;
+  height: 10vh;
+  border: 2px solid blue;
+  margin: 1rem;
+  width: 90%;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: xx-large;
+}
+
+.body-font {
+  font-size: xx-large;
+}
+
+.listDisplay {
+  list-style: none;
+}
+.listDisplay li {
+  display: inline;
+  padding: 2rem 0.5rem;
+  font-size: xx-large;
+}
+::placeholder {
+  font-size: large;
+  font-style: italic;
+}
